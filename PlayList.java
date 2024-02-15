@@ -130,7 +130,7 @@ class PlayList {
         }
         else
         {
-            for (int j = size; j >= i; j--)
+            for (int j = size; j > i; j--)
                 // 'moves' all the tracks one place to the right
                 {
                     tracks[j] = tracks[j - 1];
